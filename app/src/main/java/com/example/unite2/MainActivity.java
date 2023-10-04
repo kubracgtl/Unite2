@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i =new Intent(MainActivity.this, ss65Activity.class);
         startActivity(i);
     }
+
+    public void uyg5Goster(View view) {
+        Intent i =new Intent(MainActivity.this, uyg_5Activity.class);
+        startActivity(i);
+    }
 }
